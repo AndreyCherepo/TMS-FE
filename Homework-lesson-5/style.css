@@ -1,0 +1,142 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.head-wrap,
+.tables-wrap {
+  text-align: center;
+}
+.head-title {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 1170px;
+  height: 150px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.hr-title hr {
+  margin: 0 auto 40px;
+  width: 170px;
+  background-color: #ec7979;
+  height: 1px;
+  border: none;
+}
+.paragraph-title {
+  margin: 0 auto 59px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #86878b;
+}
+.tables-wrap {
+  display: flex;
+  justify-content: center;
+}
+.table-one,
+.table-two,
+.table-three {
+  width: 370px;
+}
+table {
+  width: 100%;
+  box-shadow: 5px 5px 15px rgb(114 114 114);
+}
+.color-theme {
+  background: #333333;
+}
+.color-theme td {
+  color: #ffffff 50%;
+}
+.size {
+  color: #f5f5f5;
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.size-two {
+  height: 100px;
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+tr {
+  height: 50px;
+  color: #86878b;
+  font-size: 18px;
+  font-weight: 400;
+}
+.color-2 {
+  background: #ffffff;
+}
+.table-two {
+  margin: 0 30px;
+}
+.table-one,
+.table-three {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #000000;
+}
+.container-2 {
+  width: 1170px; /* указана 1510 ,сделал как  с таблицами одинаково */
+  height: 164px;
+  margin: auto;
+}
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32.23px;
+  justify-content: center;
+}
+.text-footer {
+  text-align: center;
+  margin: 0;
+}
+.text-footer p {
+  color: #86878b;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.logo {
+  margin-top: 0;
+  padding: 0;
+  margin-left: 49px; /* выбрал среднее значение , в макете все разные отступы иконок от 44 до 57px */
+  margin-right: 49px;
+}
+.logo-1 {
+  margin-top: 40.54px;
+}
+.logo-2 {
+  margin-top: 43.91px;
+}
+.logo-3 {
+  margin-top: 41.65px;
+}
+.logo-4 {
+  margin-top: 39.43px;
+}
+.logo-5 {
+  margin-top: 41.61px;
+}
+.logo-6 {
+  margin-top: 39.43px;
+}
+.logo-7 {
+  margin-top: 44.84px;
+}

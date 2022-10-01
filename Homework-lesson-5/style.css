@@ -13,10 +13,8 @@ body {
   text-align: center;
 }
 .head-title {
-  display: flex;
+  display: grid;
   margin-top: 50px;
-  align-items: center;
-  justify-content: center;
   width: 1170px;
   height: 150px;
 }
@@ -39,7 +37,6 @@ body {
 }
 .tables-wrap {
   display: flex;
-  justify-content: center;
 }
 .table-one,
 .table-two,
@@ -112,31 +109,8 @@ tr {
   font-weight: 400;
   margin: 0;
 }
-
-.logo {
-  margin-top: 0;
-  padding: 0;
+.logo-wrap {
+  margin-top: 41px; /* выбрал среднее значение */
   margin-left: 49px; /* выбрал среднее значение , в макете все разные отступы иконок от 44 до 57px */
-  margin-right: 49px;
-}
-.logo-1 {
-  margin-top: 40.54px;
-}
-.logo-2 {
-  margin-top: 43.91px;
-}
-.logo-3 {
-  margin-top: 41.65px;
-}
-.logo-4 {
-  margin-top: 39.43px;
-}
-.logo-5 {
-  margin-top: 41.61px;
-}
-.logo-6 {
-  margin-top: 39.43px;
-}
-.logo-7 {
-  margin-top: 44.84px;
+  margin-right: 49px; /* выбрал среднее значение , в макете все разные отступы иконок от 44 до 57px */
 }

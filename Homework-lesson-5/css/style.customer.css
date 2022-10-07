@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.section-wrap {
+  background-color: #fff;
+  padding-bottom: 64px;
+}
+.title__section {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  line-height: 42px;
+  font-size: 36px;
+  padding: 54px 0;
+}
+.indent-bottom {
+  margin-bottom: 89px;
+}
+.info-text {
+  max-width: 370px;
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 37px 20px;
+  background-color: #e2e2e2;
+  color: #86878b;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 66px;
+  box-sizing: border-box;
+}
+.info-text::after {
+  content: '';
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 15px solid #e2e2e2;
+  position: absolute;
+  top: 178px;
+  left: 61px;
+}
+.author-wrap {
+  display: flex;
+}
+.author-info-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+}
+.author-info__title {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+.author-info__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.info-wrap {
+  display: flex;
+}
+.info-box:nth-child(2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}

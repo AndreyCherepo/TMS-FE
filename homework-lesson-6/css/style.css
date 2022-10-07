@@ -1,0 +1,108 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navbar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.header-wrap {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding: 10px 0 11px;
+}
+.header-navbar-list {
+  display: flex;
+}
+
+.header-link__items {
+  margin-right: 36px;
+  color: #212a2f;
+  text-decoration: none;
+  padding: 3px;
+}
+.header-link__items:last-child {
+  margin: 0;
+}
+
+.header-navbar-items__link {
+  margin-right: 39px;
+  text-decoration: none;
+  color: #212a2f;
+  padding: 3px;
+}
+.header-navbar-items__link:last-child {
+  margin: 0;
+}
+.header-navbar-list {
+  margin-left: 21px;
+}
+.header-navbar-link {
+  margin-right: 27px;
+}
+.header-navbar-link:last-child {
+  margin: 0;
+}
+
+.bg-section {
+  position: relative;
+}
+.background img {
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  height: 100%;
+}
+.text-wrap__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 63px;
+  color: white;
+  margin: 0 0 11px;
+}
+.text-wrap-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  width: 333px;
+  margin-bottom: 24px;
+  color: white;
+}
+.box-wrap {
+  position: absolute;
+  left: 54px;
+  top: 450px;
+  /* top: 504px задано ; по макету идеально подходит,если не ужимать бэкграунд */
+}
+.wrap__button {
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #212a2f;
+  padding: 17px 45px;
+  text-align: center;
+  margin-right: 24px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.wrap__button:last-child {
+  margin: 0;
+  padding: 17px 32px;
+}

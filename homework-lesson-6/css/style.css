@@ -11,23 +11,28 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header-navbar {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}
-.header-wrap {
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
   text-transform: uppercase;
   padding: 10px 0 11px;
 }
-.header-navbar-list {
+.header-navbar {
+  justify-content: space-between;
+  align-items: center;
   display: flex;
 }
-
+.header-logo__img img {
+  vertical-align: bottom;
+}
+.header-navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-navbar-list__logo img {
+  vertical-align: bottom;
+}
 .header-link__items {
   margin-right: 36px;
   color: #212a2f;
@@ -57,8 +62,8 @@ body {
   margin: 0;
 }
 
-.bg-section {
-  position: relative;
+.background {
+  position: absolute;
 }
 .background img {
   object-fit: cover;
@@ -66,28 +71,28 @@ body {
   width: 100%;
   height: 100%;
 }
-.text-wrap__title {
+.box-wrap-text__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 63px;
   color: white;
   margin: 0 0 11px;
 }
-.text-wrap-description {
+.box-wrap__description {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  width: 333px;
+  max-width: 333px;
   margin-bottom: 24px;
   color: white;
 }
 .box-wrap {
-  position: absolute;
-  left: 54px;
-  top: 450px;
+  position: relative;
+  left: 0;
+  top: 455px;
   /* top: 504px задано ; по макету идеально подходит,если не ужимать бэкграунд */
 }
-.wrap__button {
+.box__button {
   border: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -102,7 +107,7 @@ body {
   cursor: pointer;
 }
 
-.wrap__button:last-child {
+.box__button:last-child {
   margin: 0;
   padding: 17px 32px;
 }

@@ -1,0 +1,75 @@
+.section-shop-collection {
+  padding-top: 52px;
+  padding-bottom: 158px;
+}
+
+.shop__collection-head-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #212a2f;
+}
+.shop__collection-head-title {
+  margin-bottom: 54px;
+}
+.shop__collection-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #212a2f;
+}
+.button-wrap {
+  margin-top: 30px;
+  margin-bottom: 119px;
+  display: flex;
+  justify-content: center;
+}
+.button-wrap button {
+  background-color: #212a2f;
+  color: white;
+}
+.shop__collection-wrap-title {
+  margin-bottom: 24px;
+}
+.shop__collection-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+.shop__collection-box-image {
+  margin-bottom: 17px;
+}
+.shop__collection-box-titie {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.box__collection-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #212a2f;
+}
+.box__collection-text {
+  /* margin-left: 15px; */
+  max-width: 360px;
+}
+.collection__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212a2f;
+  margin-left: 15px;
+}
+.shop-collections-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+}
+.shop__collection-box-photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

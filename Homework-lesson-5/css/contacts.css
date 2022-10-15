@@ -1,0 +1,55 @@
+.contacts {
+  padding: 50px 0;
+}
+input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #bdbdbd;
+  width: 400px;
+  height: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+input::placeholder {
+  color: #bdbdbd;
+}
+input:last-child {
+  margin: 0;
+}
+textarea {
+  color: #bdbdbd;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  background-color: inherit;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.contacts-form-inputs {
+  margin-right: 30px;
+}
+.contact-form-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-form-textarea {
+  margin-bottom: 50px;
+}
+.contact-form-button {
+  margin: auto;
+  display: flex;
+  background-color: #ec7979;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 18px 130px;
+  cursor: pointer;
+  box-sizing: border-box;
+}

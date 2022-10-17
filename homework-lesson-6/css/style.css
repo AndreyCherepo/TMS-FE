@@ -6,6 +6,7 @@ body {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+  height: 100%;
 }
 .header-wrap {
   display: flex;
@@ -69,6 +70,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+  padding-bottom: 50px;
+  height: 740px;
 }
 .box-wrap-text__title {
   font-weight: 700;
@@ -88,11 +91,12 @@ body {
 .box-wrap {
   position: relative;
   z-index: 1;
-  top: 470px;
+  top: 100%;
   width: 100%;
+  transform: translateY(-100%);
   /* top: 504px задано ; по макету идеально подходит,если не ужимать бэкграунд */
 }
-.box__button {
+.button {
   border: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -107,7 +111,7 @@ body {
   cursor: pointer;
 }
 
-.box__button:last-child {
+.button:last-child {
   margin: 0;
   padding: 17px 32px;
 }

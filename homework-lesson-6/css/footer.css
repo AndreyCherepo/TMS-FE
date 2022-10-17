@@ -23,21 +23,22 @@
   text-transform: uppercase;
   margin-bottom: 21px;
 }
-.footer-column-link__list {
+.footer-column-list__link {
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
 }
-.footer-column-link__list a {
+.footer-column-list__link a {
   text-decoration: none;
   color: #ffffff;
+  display: inline-block;
 }
-.footer-column__list :last-child {
+.footer-column-list :last-child {
   margin: 0;
 }
-.footer-description-info {
-  max-width: 41%;
+.footer-description-wrap {
+  max-width: 293px;
 }
 .footer-description-info__text {
   font-weight: 400;

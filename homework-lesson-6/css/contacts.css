@@ -1,0 +1,52 @@
+.contacts {
+  padding-bottom: 48px;
+}
+.contacts__title {
+  text-align: center;
+  margin-bottom: 34px;
+}
+.contacts__text {
+  max-width: 823px;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.contact-btn {
+  margin-left: 12px;
+}
+input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  border-bottom: 2px solid #212a2f;
+  width: 588px;
+  height: 48px;
+  font-size: 14px;
+}
+input::placeholder {
+  color: #bfc4c7;
+}
+
+.contact-button {
+  background-color: #212a2f;
+  color: white;
+}
+.contacts-desc {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  color: #74797c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}

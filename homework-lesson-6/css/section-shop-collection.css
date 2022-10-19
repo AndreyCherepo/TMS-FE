@@ -1,23 +1,20 @@
-.section-shop-collection {
+.section-shop {
   padding-top: 52px;
   padding-bottom: 158px;
 }
 
-.shop__collection-head-title {
-  text-align: center;
+.shop__title--color {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
   color: #212a2f;
   margin-bottom: 54px;
+  text-align: center;
 }
 
-.shop__collection-text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+.shop__text--color {
   color: #212a2f;
+  text-align: center;
 }
 .buttons__wrap {
   margin-top: 30px;
@@ -30,45 +27,42 @@
   color: white;
 }
 
-.shop__collection-wrap-title {
-  margin-bottom: 24px;
-}
-.shop__collection-title {
+.subtitle {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
+  margin-bottom: 24px;
 }
-.shop__collection-box-image {
+.box-image {
   margin-bottom: 17px;
 }
 
-.collection-title {
+.box__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 22px;
   line-height: 29px;
   color: #212a2f;
 }
-.collection__text {
+.box__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #212a2f;
 }
-.shop__collection-box-info {
+.box-desc {
   padding-left: 15px;
   max-width: 357px;
 }
-.shop-collections-boxes {
+.shop-boxes {
   display: flex;
   justify-content: center;
   gap: 24px;
-  align-items: center;
 }
-.shop__collection-box {
+.box-item {
   width: 33%;
 }
-.shop__collection-box-photo {
+.box__img {
   height: 100%;
   width: 100%;
   object-fit: cover;

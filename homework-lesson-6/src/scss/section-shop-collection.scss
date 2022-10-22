@@ -2,20 +2,22 @@
   padding-top: 52px;
   padding-bottom: 158px;
 }
-
-.shop__title--color {
+.title {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
   color: #212a2f;
-  margin-bottom: 54px;
   text-align: center;
+}
+.shop__title {
+  margin-bottom: 54px;
 }
 
 .shop__text--color {
   color: #212a2f;
   text-align: center;
 }
+
 .buttons__wrap {
   margin-top: 30px;
   margin-bottom: 119px;
@@ -54,7 +56,7 @@
   padding-left: 15px;
   max-width: 357px;
 }
-.shop-boxes {
+.box-wrap {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -66,4 +68,25 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+@media (max-width: 800px) {
+  .box-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .box-item {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .subtitle {
+    text-align: center;
+  }
 }

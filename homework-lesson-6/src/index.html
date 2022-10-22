@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./scss/index.scss" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
@@ -18,6 +18,9 @@
   <div class="header">
     <div class="container">
       <div class="header-wrap">
+        <div class="menu-btn">
+          <div class="menu-btn__burger"></div>
+        </div>
         <div class="header-navigation">
           <a class="header navigation__link" href="">Men</a>
           <a class="header navigation__link" href=""> Women </a>
@@ -68,16 +71,96 @@
     <div class="head-background">
       <div class="container">
         <div class="box-info">
-          <div class="title box-info__title">The Trail Runner SWT Is Here.</div>
+          <div class="box-title ">The Trail Runner SWT Is Here.</div>
           <p class="text box-info__text">
             Durable. Comfortable. Ready to get dirty.
           </p>
           <div class="buttons">
-            <button class="button button--color">Shop Men</button><button class="button header__button">Shop
+            <button class="button header__button">Shop Men</button><button class="button header__button">Shop
               Women</button>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="favorites">
+    <div class="container">
+      <div class="title favotites__title ">Our Favorites</div>
+      <div class="content">
+        <div class="tabs">
+          <input type="radio" id="tab-1" name="tab" checked />
+          <label for="tab-1" class="tab">Everyday</label>
+
+          <input type="radio" id="tab-2" name="tab" />
+          <label for="tab-2" class="tab">Running</label>
+
+          <input type="radio" id="tab-3" name="tab" />
+          <label for="tab-3" class="tab">Travel</label>
+        </div>
+        <hr>
+      </div>
+      <div class="box-wrap">
+        <div class="box-item ">
+          <div class="box-image box__image__position">
+            <img src="./images/favorites-photo.jpg" alt="" class="box__img">
+            <div class="button-wrap ">
+              <button class="button-size ">Shop Men</button><button class="button-size">Shop
+                Women</button>
+            </div>
+          </div>
+          <div class="box-desc">
+            <h2 class="box__title">Wool Runner</h2>
+            <hr>
+          </div>
+          <div class="box-content">
+
+            <img class="box-logo" src="./images/favorites-logo-1.svg" alt="">
+            <p class="box__text">Cozy Sneaker</p>
+          </div>
+        </div>
+
+
+        <div class="box-item ">
+          <div class="box-image box__image__position">
+            <img src="./images/favorites-photo-2.jpg" alt="" class="box__img">
+            <div class="button-wrap ">
+              <button class="button-size ">Shop Men</button><button class="button-size">Shop
+                Women</button>
+            </div>
+          </div>
+          <div class="box-desc">
+            <h2 class="box__title">Tree Runner</h2>
+            <hr>
+          </div>
+          <div class="box-content">
+
+            <img class="box-logo" src="./images/favorites-logo-2.svg" alt="">
+            <p class="box__text">Light and Breezy Sneaker</p>
+          </div>
+        </div>
+
+        <div class="box-item ">
+          <div class="box-image box__image__position">
+            <img src="./images/favorites-photo-3.jpg" alt="" class="box__img">
+            <div class="button-wrap ">
+              <button class="button-size ">Shop Men</button><button class="button-size">Shop
+                Women</button>
+            </div>
+          </div>
+          <div class="box-desc">
+            <h2 class="box__title">Wool Runner Mizzle</h2>
+            <hr>
+          </div>
+          <div class="box-content">
+
+            <img class="box-logo" src="./images/favorites-logo-3.svg" alt="">
+            <p class="box__text">Rain-Ready Sneaker</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </section>
 
@@ -89,7 +172,7 @@
 
   <section class="section-shop">
     <div class="container">
-      <div class="title shop__title--color">Seasons Change. Your Shoes Don’t Have To.</div>
+      <div class="title shop__title">Seasons Change. Your Shoes Don’t Have To.</div>
       <div class="text shop__text--color">Soft and cozy wool shoes to keep you comfortable all year round.</div>
       <div class="buttons__wrap">
         <button class="button ">Shop Men</button><button class="button">Shop Women</button>
@@ -98,7 +181,7 @@
 
       <div class="shop-wrap">
         <div class="subtitle">Shop The Collections</div>
-        <div class="shop-boxes">
+        <div class="box-wrap">
           <div class="box-item ">
             <div class="box-image">
               <img src="./images/shop-collection-photo.jpg" alt="" class="box__img">
@@ -155,7 +238,7 @@
 
       <div class="shop-wrap">
         <div class="subtitle">New Arrivals</div>
-        <div class="shop-boxes">
+        <div class="box-wrap">
           <div class="box-item ">
             <div class="box-image">
               <img src=".//images/nature-shooes.jpg" alt="" class="box__img box--img--color">
@@ -214,7 +297,7 @@
 
       <div class="shop-wrap">
         <div class="subtitle subtitle--size">Stories</div>
-        <div class="shop-boxes">
+        <div class="box-wrap">
           <div class="box-item ">
             <div class="box-image">
               <img src="./images/stories.jpg" alt="" class="box__img box--img--color">
@@ -424,6 +507,7 @@
       </div>
     </div>
   </div>
+  <!-- <script src="./js/index.js"></script> -->
 </body>
 
 </html>

@@ -31,12 +31,18 @@
   line-height: 16px;
   padding: 17px 123px;
   text-align: center;
-  margin-right: 24px;
+  // margin-right: 24px;
   border-radius: 2px;
   letter-spacing: 2px;
   cursor: pointer;
   background-color: #212a2f;
   color: white;
+  @media (max-width: 526px) {
+    width: 80%;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 12px;
+  }
 }
 .box--img--color {
   filter: brightness(92%);

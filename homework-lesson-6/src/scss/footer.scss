@@ -70,3 +70,33 @@
   color: #ffffff;
   letter-spacing: 0.5px;
 }
+@media (max-width: 820px) {
+  .footer-box {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .footer-box {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-column {
+    text-align: center;
+    // display: flex;
+    // flex-wrap: wrap;
+    margin: auto;
+  }
+  .footer-box-description {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}

@@ -18,6 +18,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+  @media (max-width: 320px) {
+    .contact-btn {
+      margin: auto;
+      margin-top: 7px;
+    }
+  }
 }
 .contact-btn {
   margin-left: 12px;
@@ -35,6 +41,14 @@ input {
 input::placeholder {
   color: #bfc4c7;
 }
+@media (max-width: 615px) {
+  input {
+    width: 100%;
+  }
+  input::placeholder {
+    color: rgb(38, 56, 56);
+  }
+}
 
 .contact-button {
   background-color: #212a2f;
@@ -44,7 +58,7 @@ input::placeholder {
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   color: #74797c;
   font-weight: 400;
   font-size: 14px;

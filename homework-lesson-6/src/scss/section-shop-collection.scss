@@ -76,7 +76,11 @@
     justify-content: center;
   }
 }
-
+@media (max-width: 550px) {
+  .box__img {
+    border-radius: 10px;
+  }
+}
 @media (max-width: 550px) {
   .box-item {
     justify-content: center;

@@ -32,6 +32,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 21px;
 }
 .header-navbar-list__logo img {
   vertical-align: bottom;
@@ -54,9 +55,7 @@ body {
 .header-navbar-items__link:last-child {
   margin: 0;
 }
-.header-navbar-list {
-  margin-left: 21px;
-}
+
 .header-navbar-link {
   margin-right: 27px;
 }
@@ -101,7 +100,6 @@ body {
       text-align: center;
     }
   }
-  /* top: 504px задано ; по макету идеально подходит,если не ужимать бэкграунд */
 }
 .button {
   border: none;

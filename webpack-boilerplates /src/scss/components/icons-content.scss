@@ -1,0 +1,41 @@
+.icons-content {
+  padding-top: 125px;
+  padding-bottom: 133px;
+}
+.icon-logo {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.logo {
+  margin: auto;
+}
+.icon__title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #2d3033;
+  margin-bottom: 20px;
+}
+.icon__desc {
+  color: #6c7279;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 370px;
+  text-align: center;
+  margin: auto;
+}
+.icon__box {
+  max-width: 33%;
+}
+.icons-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.icons-wrap:last-child {
+  margin: 0;
+}

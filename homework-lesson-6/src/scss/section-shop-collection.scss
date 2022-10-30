@@ -94,3 +94,28 @@
     text-align: center;
   }
 }
+@media (max-width: 396px) {
+  .buttons__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
+@media (max-width: 407px) {
+  .button {
+    margin: auto;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 393px) {
+  .button {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 396px) {
+  .buttons__wrap {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,130 @@
+body {
+  font-family: 'Cardo', serif;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  background-image: url(../images/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 747px;
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  top: 25px;
+
+  display: flex;
+}
+.header-menu {
+  margin-bottom: 35px;
+}
+
+.header__link__list {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  opacity: 1;
+  padding: 7px;
+  position: relative;
+}
+
+.header__link__list:hover::before {
+  transform: scaleX(1);
+  transition: transform 0.25s;
+  transform-origin: left;
+}
+.header__link__list:hover {
+  opacity: 0.6;
+}
+.header__link__list::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: -33px;
+  background-color: #babbc5;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__link {
+  margin-top: 25px;
+  display: flex;
+  gap: 36px;
+  justify-content: flex-end;
+}
+
+.header-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  max-width: 1170px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.header__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  max-width: 1170px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.separate {
+  width: 100%;
+  border-bottom: 1px solid #babbc5;
+}
+.button {
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #ff4343;
+  color: #fff;
+  border: none;
+  padding: 26px 91px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.button:hover {
+  background-color: #e71414;
+}
+.button:active {
+  box-shadow: 6px 3px 20px 3px#FF4343;
+  background-color: #ff4343;
+}

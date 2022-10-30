@@ -64,3 +64,8 @@ input::placeholder {
   font-size: 14px;
   line-height: 14px;
 }
+@media (max-width: 761px) {
+  input {
+    margin-bottom: 10px;
+  }
+}

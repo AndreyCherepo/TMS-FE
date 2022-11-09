@@ -1,29 +1,19 @@
-.authors-content {
+.authors-section {
   padding-top: 115px;
   padding-bottom: 125px;
 }
 @media (max-width: 1024px) {
-  .authors-content {
+  .authors-section {
     padding-top: 78px;
     padding-bottom: 78px;
   }
 }
 @media (max-width: 500px) {
-  .authors-content {
+  .authors-section {
     padding-top: 35px;
     padding-bottom: 35px;
   }
 }
-// @media (max-width: 1135px) {
-//   .author-content:nth-last-child(3) {
-//     .author__info {
-//       margin-bottom: 12px;
-//     }
-//     .author__desc {
-//       margin-bottom: 32px;
-//     }
-//   }
-// }
 @media (max-width: 900px) {
   .author-content:nth-last-child(3) {
     .author__info {

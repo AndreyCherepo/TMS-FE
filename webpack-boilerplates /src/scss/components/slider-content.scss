@@ -96,6 +96,11 @@
     line-height: 28px;
   }
 }
+@media (max-width: 500px) {
+  .slider__info__title {
+    margin-bottom: 25px;
+  }
+}
 .slider__info__desc {
   text-transform: uppercase;
   text-align: center;
@@ -110,7 +115,11 @@
     line-height: 16px;
   }
 }
-
+@media (max-width: 500px) {
+  .slider__info__desc {
+    margin-bottom: 13px;
+  }
+}
 .slider-info {
   margin-top: 114px;
 }
